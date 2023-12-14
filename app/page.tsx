@@ -19,8 +19,8 @@ export default function Home() {
     })
   return (
     <main>
-      <div className='w-full bg-slate-700	'>
-        <div>
+      <div className='w-full h-full bg-slate-700'>
+        <div className='justify-center'>
           <h1>Current City : {currentCity}</h1>
           <h2>Min Temp:{minTemperature}</h2>
           <h2>Max Temp:{maxTempertaure}</h2>
